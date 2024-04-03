@@ -1,7 +1,7 @@
-Module 4 Challenge
+##Module 4 Challenge
 PyCity School Budget and Standardized Test Analysis
 
-Overview
+##Overview
 This Python script uses the Pandas library to conduct analysis on standardized test results, budget by school and per capita, school size and type.
 
 The analysis begins by analyzing at the district level to understand how many schools there are, the size of each school, the total budget per school, average math and reading scores, 
@@ -21,23 +21,23 @@ Than the top 5 performing schools.  This leads me to believe smaller class sizes
 passing rates are awful compared to the charter schools.  In conclusion, Charter Schools out perform District Schools not because of more spending per capita but due to smaller class sizes
 
 
-Requirements
+##Requirements
 Python 3, Jupyter, CSV files containing schools_complete and student_complete data
 
-District Analysis
+##District Analysis
 Path to School Data: The code assumes that the budget data is stored in a CSV file named schools_complete.csv. Unique Schools: The code calculates the total number of unique schools (school_count) included in the dataset. 
 Total Students: Calculates the total count of students (student_count). Total Budget: Calculates the total budget of all schools combined. Average Math & Reading: Calculates the average (mean) score for Math and Reading across all schools 
 Percentage of students who passes math, reading & both: calculates the rates of students who passed either math, or reading, or both.
 
-School Analysis
+##School Analysis
 School Type: determines the different school types being analyzed. Student Count Per School: calculates population by school. School budget and per capita spending: calculates the budget available per school and what is being
 spent per student at each school.  Average test Scores by School: calculates average math and reading scores by school.  Passing Rates: calculates students who only passed math or reading and students who passed both.  The per
 school summary displays the DataFrame created with previous calculations.  
 
-Output
+##Output
 The results of each analyses are printed to the below each cell in the Jupyter notebook. Additionally, the report is contained within this README.
 
-Usage
+##Usage
 Ensure Python 3 is installed on your system. Place the CSV files containing school and student data in their respective directories (PyCitySchools/Resources). Run the Python script in your terminal: "python -m notebook" to launch
 the Jupyter notebook.  
 
